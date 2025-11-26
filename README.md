@@ -1,6 +1,6 @@
 # EP4---Cl-nica-M-dica-NexCare
 
-🏥 Sistema de Gestão da Clínica Médica NexCare  
+Sistema de Gestão da Clínica Médica NexCare  
 ## Experiência Prática 4 — Implementação e Manipulação de Dados (SQL)
 
 Este repositório contém a implementação do banco de dados do sistema de gestão da Clínica Médica **NexCare**, desenvolvido para a disciplina de **Modelagem de Banco de Dados**.
@@ -9,13 +9,13 @@ A EP4 tem como objetivo aplicar conhecimentos de **DDL, DML e DQL**, organizando
 
 ---
 
-📂 Estrutura do Repositório
+ Estrutura do Repositório
 
 /sql ├── 1_DDL_Criacao_Tabelas.sql ├── 2_DML_Insercao_Dados.sql ├── 3_DQL_Consultas.sql └── 4_DML_Atualizacao_Delete.sql README.md
 
 ---
 
-🧱 1. DDL – Criação das Tabelas  
+ 1. DDL – Criação das Tabelas  
 Arquivo: **1_DDL_Criacao_Tabelas.sql**
 
 Contém:
@@ -28,7 +28,7 @@ Contém:
 
 ---
 
-📥 2. DML – Inserção de Dados  
+2. DML – Inserção de Dados  
 Arquivo: **2_DML_Insercao_Dados.sql**
 
 Contém:
@@ -38,7 +38,7 @@ Contém:
 - População das tabelas: usuário, paciente, médico, consulta e pagamento
 
 
-🔎 3. DQL – Consultas SQL  
+3. DQL – Consultas SQL  
 Arquivo: **3_DQL_Consultas.sql**
 
 Inclui entre 2 e 5 consultas, utilizando:
@@ -51,7 +51,7 @@ Inclui entre 2 e 5 consultas, utilizando:
 
 ---
 
-✏️ 4. DML – Atualização e Exclusão  
+4. DML – Atualização e Exclusão  
 Arquivo: **4_DML_Atualizacao_Delete.sql**
 
 Contém:
@@ -61,15 +61,14 @@ Contém:
 - Exclusão segura respeitando relacionamentos
 
 
-▶️ Como Executar os Scripts
+Como Executar os Scripts
 
 Você pode rodar os scripts em:
 
-✔️ Ambiente local (MySQL Workbench)  
-Ou  
-✔️ PostgreeSQL
+Ambiente local (MySQL Workbench)  
+Ou  PostgreeSQL
 
-### 📌 Ordem recomendada de execução:
+Ordem recomendada de execução:
 
 1. `1_DDL_Criacao_Tabelas.sql`  
 2. `2_DML_Insercao_Dados.sql`  

@@ -1,4 +1,4 @@
-# EP4---Cl-nica-M-dica-NexCare
+EP4---Cl-nica-M-dica-NexCare
 
 Sistema de Gestão da Clínica Médica NexCare  
 ## Experiência Prática 4 — Implementação e Manipulação de Dados (SQL)
@@ -7,16 +7,18 @@ Este repositório contém a implementação do banco de dados do sistema de gest
 
 A EP4 tem como objetivo aplicar conhecimentos de **DDL, DML e DQL**, organizando o projeto em scripts SQL funcionais e bem estruturados.
 
----
+
 
  Estrutura do Repositório
 
-/sql ├── 1_DDL_Criacao_Tabelas.sql ├── 2_DML_Insercao_Dados.sql ├── 3_DQL_Consultas.sql └── 4_DML_Atualizacao_Delete.sql README.md
+1_DDL_Criacao_Tabelas.sql
+2_DML_Insercao_Dados.sql
+3_DQL_Consultas.sql
+4_DML_Atualizacao_Delete.sql README.md
 
----
 
  1. DDL – Criação das Tabelas  
-Arquivo: **1_DDL_Criacao_Tabelas.sql**
+Arquivo: 1_DDL_Criacao_Tabelas.sql
 
 Contém:
 
@@ -26,10 +28,10 @@ Contém:
 - Tipos de dados compatíveis com MySQL  
 - Regras de integridade referencial
 
----
+
 
 2. DML – Inserção de Dados  
-Arquivo: **2_DML_Insercao_Dados.sql**
+Arquivo: 2_DML_Insercao_Dados.sql
 
 Contém:
 
@@ -39,7 +41,7 @@ Contém:
 
 
 3. DQL – Consultas SQL  
-Arquivo: **3_DQL_Consultas.sql**
+Arquivo:3_DQL_Consultas.sql
 
 Inclui entre 2 e 5 consultas, utilizando:
 
@@ -49,15 +51,14 @@ Inclui entre 2 e 5 consultas, utilizando:
 - JOIN entre tabelas  
 - Relatórios simples (consultas por médico, paciente, datas etc.)
 
----
 
 4. DML – Atualização e Exclusão  
-Arquivo: **4_DML_Atualizacao_Delete.sql**
+Arquivo: 4_DML_Atualizacao_Delete.sql
 
 Contém:
 
-- **3 comandos UPDATE** com condições  
-- **3 comandos DELETE** com condições  
+- comandos UPDATE com condições  
+- 3 comandos DELETE com condições  
 - Exclusão segura respeitando relacionamentos
 
 

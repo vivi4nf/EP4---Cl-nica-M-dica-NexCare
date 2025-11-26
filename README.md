@@ -67,8 +67,7 @@ Você pode rodar os scripts em:
 
 ✔️ Ambiente local (MySQL Workbench)  
 Ou  
-✔️ Ambiente online sem instalar nada  
-Use: **https://sqlfiddle.com**
+✔️ PostgreeSQL
 
 ### 📌 Ordem recomendada de execução:
 

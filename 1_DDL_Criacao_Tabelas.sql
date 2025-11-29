@@ -4,9 +4,8 @@
 
 
 
--- ======================
--- Tabela USUARIO
--- ======================
+ Tabela USUARIO
+
 
 CREATE TABLE usuario (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
@@ -18,9 +17,9 @@ CREATE TABLE usuario (
     telefone VARCHAR(15)
 );
 
--- ======================
--- Tabela PACIENTE
--- ======================
+
+Tabela PACIENTE
+
 
 CREATE TABLE paciente (
     id_paciente INT AUTO_INCREMENT PRIMARY KEY,
@@ -34,9 +33,9 @@ CREATE TABLE paciente (
     FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario)
 );
 
--- ======================
--- Tabela MEDICO
--- ======================
+
+ Tabela MEDICO
+
 CREATE TABLE medico (
     id_medico INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -49,9 +48,9 @@ CREATE TABLE medico (
     FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario)
 );
 
--- ======================
--- Tabela CONSULTA
--- ======================
+
+Tabela CONSULTA
+
 
 CREATE TABLE consulta (
     id_consulta INT AUTO_INCREMENT PRIMARY KEY,
@@ -64,9 +63,9 @@ CREATE TABLE consulta (
     FOREIGN KEY (id_medico) REFERENCES medico(id_medico)
 );
 
--- ======================
--- Tabela PAGAMENTO
--- ======================
+
+ Tabela PAGAMENTO
+
 
 CREATE TABLE pagamento (
     id_pagamento INT AUTO_INCREMENT PRIMARY KEY,

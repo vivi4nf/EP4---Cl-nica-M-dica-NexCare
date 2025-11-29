@@ -17,7 +17,9 @@ A EP4 tem como objetivo aplicar conhecimentos de **DDL, DML e DQL**, organizando
 
 3_DQL_Consultas.sql
 
-4_DML_Atualizacao_Delete.sql README.md
+4_DML_Atualizacao_Delete.sql
+
+ README.md
 
 
  1. DDL – Criação das Tabelas  

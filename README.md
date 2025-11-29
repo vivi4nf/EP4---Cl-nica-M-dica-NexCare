@@ -66,8 +66,7 @@ Como Executar os Scripts
 
 Você pode rodar os scripts em:
 
-Ambiente local (MySQL Workbench)  
-Ou  PostgreeSQL
+MySQL Workbench ou  PostgreeSQL
 
 Ordem recomendada de execução:
 

@@ -12,8 +12,11 @@ A EP4 tem como objetivo aplicar conhecimentos de **DDL, DML e DQL**, organizando
  Estrutura do Repositório
 
 1_DDL_Criacao_Tabelas.sql
+
 2_DML_Insercao_Dados.sql
+
 3_DQL_Consultas.sql
+
 4_DML_Atualizacao_Delete.sql README.md
 
 
